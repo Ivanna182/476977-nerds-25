@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="main-header-logo" href="#">
+        <img src="img/nerds-logo.svg" width="165" height="75" alt="Логотип «Nerd`s»">
+      </a>
+      <nav class="main-navigation">
+        <ul class="site-navigation">
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li><a href="site-navigation-current">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+          <li class="cart empty-cart">
+            <a class="cart-button" href="#">Корзина</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="catalog">
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <a href="#">
+              <img src="img/sedona.jpg" width="360" height="576" alt="Сайт «Седона»">
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#">
+              <img src="img/pink.jpg" width="360" height="576" alt="Сайт «Pink»">
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#">
+              <img src="img/borodinski.jpg" width="360" height="576" alt="Сайт барбершопа «Бородинский»">
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#">
+              <img src="img/mishka.jpg" width="360" height="576" alt="Сайт «Mishka»">
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#">
+              <img src="img/education.jpg" width="360" height="576" alt="Сайт «Education»">
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#">
+              <img src="img/kvast.jpg" width="360" height="576" alt="Сайт «Кваст»">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <div class="pagination">
+        <ul class="pagination-list">
+          <li class="pagination-item">
+            <a class="active" href="#">1</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#">Следующая</a>
+          </li>
+        </ul>
+      </div>
+      <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.598942412403!2d30.320894616187918!3d59.938796869047835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1511716025084" width="1200" height="430" style="border:0" allowfullscreen></iframe>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="footer-social">
+        <ul>
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+      <h3>Давайте дружить, это выгодно!</h3>
+      <p>Скидка 10% для друзей из социальных сетей.</p>
+    </footer>
+    <section class="modal modal-login">
+      <h2>Напишите нам</h2>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="wrapper">
+          <p>
+            <label for="user-name"><b>Ваше имя:</b></label>
+            <input type="text" name="user-name" id="user-name" placeholder="Имя Фамилия" required="" autofocus="">			
+          </p>
+          <p>
+            <label for="user-email"><b>Ваш e-mail</b></label>
+            <input type="email" name="user-email" id="user-email" placeholder="email@example.com" required="">			
+          </p>
+        </div>
+        <p>
+          <label for="contact-text"><b>Текст письма:</b></label>
+          <textarea name="text" id="contact-text" rows="5" cols="250" placeholder="В свободной форме" required=""></textarea>
+        </p>
+        <button class="button" type="submit">Отправить</button>
+          <a href="#" class="modal-close">Закрыть</a>
+        </form>
+    </section>
+  </body>
+</html>
