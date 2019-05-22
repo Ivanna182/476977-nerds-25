@@ -1,0 +1,220 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    background-color: #fb565a;
+    border: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.main-header {
+    background-color: #eeeeee;
+}
+
+.main-header h3 {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 45px;
+    padding: 77px 0 105px;
+
+}
+   
+.main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  
+    background-color: #eeeeee;
+}
+
+.site-navigation {
+    font-size: 10,15px;
+    line-height: 10,15px;
+    list-style: none;
+}
+
+.site-navigation a {
+    color: #000000;
+}
+
+.site-navigation a:hover {
+    color: #fb565a;
+}
+
+.site-navigation a:focus{
+    color: #c0c0c0;
+}
+
+.site-navigation-current {
+    border-bottom: 2px solid #fb565a;
+}
+
+.services-list {
+    list-style: none;
+}
+
+.services-item h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.services-item p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #444;
+}
+
+.button-red  {
+    background-color: #fb565a;
+    margin-bottom: 80px;
+    padding: 16px 40px;
+}
+
+.button-red:hover {
+    background-color: #e74246;
+}
+
+.button-red:active {
+    color: #e48789;
+    background-color: #d7373b;
+}
+
+.button-green {
+    background-color: #00ca74;
+    margin-bottom: 80px;
+    padding: 16px 40px;
+}
+
+.button-green:hover {
+    background-color: #00bc6c;
+}
+
+.button-green:active {
+    color: #74c69c;
+    background-color: #00aa62;
+}
+
+.button-yellow {
+    background-color:  #efc84a;
+    margin-bottom: 80px;
+    padding: 16px 40px;
+}
+
+.button-yellow:hover {
+    background-color: #eab534;
+}
+
+.button-yellow:active {
+    color: #edc47f;
+    background-color: #e5a722;
+}
+
+.representation h3 {
+    margin-bottom: 31px;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.representation p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #444;
+}
+
+.representation b {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.list-orders {
+    list-style: none;
+    color: #444;
+}
+
+.statistics b {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.statistics-list {
+    list-style: none;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.tr {
+    font-size: 16px;
+    line-height: 18px;
+    color: #444;
+}
+
+.partners-list {
+    list-style: none;
+}
+
+.partners img {
+    opacity: 0.2;
+}
+
+.partners img:hover {
+    opacity: 1;
+}
+
+.partners img:active {
+    opacity: 0.1;
+}
+
+/* Footer */
+
+.social-list {
+    width: 260px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-button {
+    margin-bottom: 5px;
+}
+
+.main-footer h3 {
+    font-size: 36px;
+    line-height: 36px;
+    color: #000;
+    font-weight: 700;
+    display: block;
+    margin: 6px 0 10px;
+}
+
+.main-footer p {
+    margin: 0;
+    line-height: 22px;
+    color: #444;
+}
+
+/* Catalog */
+
