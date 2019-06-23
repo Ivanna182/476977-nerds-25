@@ -19,6 +19,10 @@ img {
     height: auto;
 }
 
+.section {
+    display: block;
+}
+
 .button {
     display: block;
     width: 240px;
@@ -529,6 +533,7 @@ img {
 .pagination-list {
     display: flex;
     margin-top: 44px;
+    margin-bottom: 40px;
 }
 
 .pagination-item:not(:last-child) {
@@ -670,7 +675,212 @@ img {
     text-align: right;
 }
 
+
+fieldset .grid {
+    margin-bottom: 13px;
+}
+
+.filter legend {
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.filter ul, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.net-option {
+    margin-bottom: 11px;
+}
+
+.net-option label {
+    position: relative;
+    display: block;
+    padding-left: 36px;
+}
+.filter-option label {
+    color: #283136;
+}
+label {
+    padding-bottom: 5px;
+}
+
+fieldset:nth-child(2) {
+    margin-top: 55px;
+    margin-bottom: 38px;
+}
+
 /* Catalog */
+
+.catalog-partners .container {
+    max-width: 760px;
+}
+
+.sorting {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 760px;
+}
+
+.sorting b {
+    font-size: 18px;
+    margin-right: 218px;
+}
+
+.sorting a {
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #cacaca;
+    text-decoration: none;
+}
+
+.sorting-item .active, .sorting-item a:active {
+    color: #000;
+}
+
+.sorting-item a:hover {
+    color: #000;
+}
+
+.sorting ul {
+    display: flex;
+    list-style: none;
+}
+
+.sorting-item {
+    margin-right: 25px;
+}
+
+.sorting-buttons {
+    align-items: center;
+    margin: 0;
+}
+
+.sorting-buttons {
+    display: flex;
+    padding: 0;
+}
+
+.sorting-buttons .button-down, .sorting-buttons .button-up {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0 18px 0 0;
+    border-style: solid;
+    border-width: 10px 5.5px 0;
+    border-color: #010101 transparent transparent;
+}
+
+.sorting-buttons .button-up {
+    margin: 0;
+    border-width: 0 5.5px 10px;
+    border-color: transparent transparent #ededed;
+}
+
+button {
+    padding: 1px 6px;
+    border: 0;
+    background: 0 0;
+    text-transform: none;
+    overflow: visible;
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.catalog {
+    margin-top: 55px;
+}
+
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog-item {
+    position: relative;
+    width: 360px;
+    margin-bottom: 55px;
+}
+
+.catalog .description {
+    width: 360px;
+    min-height: 165px;
+    text-align: center;
+    padding: 24px 0 40px;
+    background-color: #eee;
+    position: absolute;
+    bottom: 0;
+}
+
+.catalog .description h3 {
+    margin-top: 0;
+    margin-bottom: -1px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+}
+
+.description h3 {
+    margin-top: 40px;
+    margin-bottom: 23px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.catalog .description-text {
+    padding: 0 78px;
+    margin-bottom: 43px;
+    line-height: 18px;
+    color: #666;
+}
+
+.description .price {
+    background-color: #fb565a;
+    border: 1px solid #fb565a;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 18px;
+    padding: 13px 61px;
+    cursor: pointer;
+}
+
+.catalog-item:nth-child(2) .description-text {
+    padding: 0 54px;
+}
+
+.catalog-item:not(:first-child) .description {
+    display: none;
+}
+
+
+.catalog-item::before {
+    content: "";
+    position: absolute;
+    top: -39px;
+    left: 0;
+    width: 360px;
+    height: 40px;
+    background-image: url(../img/browser.svg);
+    background-repeat: no-repeat;
+    opacity: .12;
+}
+
+
+::before {
+    box-sizing: inherit;
+}
+
 
 /* Footer */
 
