@@ -14,22 +14,26 @@
           <a class="main-header-logo" href="#">
             <img src="img/nerds-logo.svg" width="165" height="75" alt="Логотип «Nerd`s»">
           </a>
-          <ul class="site-navigation">
-            <li><a href="#">Студия</a></li>
-            <li><a href="#">Клиенты</a></li>
-            <li><a href="catalog.html">Магазин</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
+          <div class="navigation">
+            <ul class="site-navigation">
+              <li><a href="#">Студия</a></li>
+              <li><a href="#">Клиенты</a></li>
+              <li><a href="catalog.html">Магазин</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          <div class="navigation basket">
           <ul class="site-navigation">
             <li>
               <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="#a6a6a6" cx="4.5" cy="13.5" r="1.5"/><circle fill="#a6a6a6" cx="12.5" cy="13.5" r="1.5"/><path fill="#a6a6a6" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>
               <a class="basket-button" href="#">Корзина</a>
             </li>
           </ul>
-        </nav>
+        </div>
+      </div>
+      </nav>
       </div>
     </header>
-    <main class="container">
+    <main>
       <section class="slider">
         <div class="container">
           <h2 class="visually-hidden">Преимущества</h2>
@@ -60,26 +64,30 @@
           </ul>  
         </div>
       </section>
-      <ul class="services-list">
-        <li class="services-item">
-          <img src="img/services1.png" width="300" height="146" alt="Веб-сайты">
-          <h3>ВЕБ-САЙТЫ</h3>
-          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <a class="button button-red" href="#">Заказать</a>
-        </li>
-        <li class="services-item">
-          <img src="img/services2.png" width="300" height="146" alt="Приложения">
-          <h3>ПРИЛОЖЕНИЯ</h3>
-          <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-          <a class="button button-green" href="#">Заказать</a>
-        </li>
-        <li class="services-item">
-          <img src="img/services3.png" width="300" height="146" alt="Презентации">
-          <h3>ПРЕЗЕНТАЦИИ</h3>
-          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-          <a class="button button-yellow" href="#">Заказать</a>
-        </li>
-      </ul>
+      <section class="services">
+        <div class="container">
+          <ul class="services-list">
+            <li class="services-item">
+              <img src="img/services1.png" width="300" height="146" alt="Веб-сайты">
+              <h3>ВЕБ-САЙТЫ</h3>
+              <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+              <a class="button button-red" href="#">Заказать</a>
+            </li>
+            <li class="services-item">
+              <img src="img/services2.png" width="300" height="146" alt="Приложения">
+              <h3>ПРИЛОЖЕНИЯ</h3>
+              <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+              <a class="button button-green" href="#">Заказать</a>
+            </li>
+            <li class="services-item">
+              <img src="img/services3.png" width="300" height="146" alt="Презентации">
+              <h3>ПРЕЗЕНТАЦИИ</h3>
+              <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+              <a class="button button-yellow" href="#">Заказать</a>
+            </li>
+          </ul>
+        </div>
+      </section>
       <section class="studio">
         <div class="container">
         <div class="representation">
@@ -128,19 +136,16 @@
             <a href="https://up.htmlacademy.ru/htmlcss/25">
               <img src="img/logo1.png" width="200" height="70" alt="HTML Academy">
             </a>
-            <pseudo:after><pseudo:after>
           </li>
           <li class="partners-item">
             <a href="#">
               <img src="img/logo2.png" width="212" height="90" alt="Барбершоп «Бородинский»">
             </a>
-            <pseudo:after><pseudo:after>
           </li>
           <li class="partners-item">
             <a href="#">
               <img src="img/logo3.png" width="191" height="56" alt="Pink">
             </a>
-            <pseudo:after><pseudo:after>
           </li>
           <li class="partners-item">
             <a href="#">
@@ -152,9 +157,19 @@
       </section>
       <section class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.598942412403!2d30.320894616187918!3d59.938796869047835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1511716025084" width="1200" height="430" style="border:0" allowfullscreen></iframe>
+        <div class="container">
+          <section class="address">
+            <h3>NЁRDS DESIGN STUDIO</h3>
+            <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <span>тел. +7 (812) 275-75-75</span>
+            <a href="modal-window.html" class="button button-address">Напишите нам</a>
+          </section>
+        </div>
       </section>
     </main>
+
     <footer class="main-footer">
+      <div class="container">
       <div class="footer-social">
         <ul class="social-list">
           <li class="social-item">
@@ -177,29 +192,34 @@
           </li>
         </ul>
       </div>
+      <div class="friends">
       <h3>Давайте дружить, это выгодно!</h3>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
+      <span>Скидка 10% для друзей из социальных сетей.</span>
+    </div>
+    </div>
     </footer>
-    <section class="modal modal-login">
+
+     <section class="modal modal-login">
       <h2>Напишите нам</h2>
       <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
         <div class="wrapper">
           <p>
             <label for="user-name"><b>Ваше имя:</b></label>
-            <input type="text" name="user-name"  placeholder="Имя Фамилия" required="" autofocus="">			
+            <input type="text" name="user-name" id="user-name" placeholder="Имя Фамилия" required="" autofocus="">			
           </p>
           <p>
             <label for="user-email"><b>Ваш e-mail</b></label>
-            <input type="email" name="user-email" placeholder="email@example.com" required="">			
+            <input type="email" name="user-email" id="user-email" placeholder="example@.com" required="">			
           </p>
         </div>
         <p>
           <label for="contact-text"><b>Текст письма:</b></label>
-          <textarea name="text" id="contact-text" rows="5" cols="250" placeholder="В свободной форме" required=""></textarea>
+          <textarea name="text" id="contact-text" rows="5" cols="250" placeholder="Напишите что-нибудь..." required=""></textarea>
         </p>
         <button class="button" type="submit">Отправить</button>
           <a href="#" class="modal-close">Закрыть</a>
         </form>
     </section>
+    <script src="js/script.min.js"></script>
   </body>
 </html>
